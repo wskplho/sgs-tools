@@ -1,0 +1,2 @@
+echo "this will reverse the market update"
+busybox cp -f /sdcard/sgstools/Vending* /system/app/

@@ -1,0 +1,2 @@
+echo "this will reverse the browser.apk hack"
+busybox cp -f /sdcard/sgstools/Browser* /system/app/

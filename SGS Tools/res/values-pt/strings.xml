@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="hello">Olá mundo, informação!</string>
+    <string name="app_name">SGS Tools</string>
+<string name="homscreennumber">Escolher o ecrã de omissão</string>
+    <string name="screencount">Escolher o número de ecrãs</string>
+<string-array name="descriptions">
+        <item>Verificar número IMEI</item>
+        <item>Product Code</item>
+        <item>Modo de testes</item>
+        <item>Estatísticas de uso e informação do dispositivo</item>
+        <item>Mostrar relógio de tempo real (RTC)</item>
+        <item>Estado GSM</item>
+        <item>PDA/PHONE/CSC-Versão</item>
+        <item>Modo-Serviço UART/USB</item>
+        <item>Modo-serviço, Debug, Netz, Aúdio, Comum</item>
+        
+        <item>Modo Egenheiro (Engineering)</item>
+        <item>Selecção de Banda</item>
+        <item>Endereço Bluetooth</item>
+        <item>Teste Bluetooth</item>
+        <item>Endereço WLAN-MAC</item>
+        <item>Teste-GPS e definições (LBSTestMode)</item>
+        <item>Versão de Firmware do Touchscreen</item>
+        <item>Teste ao Touchscreen</item>
+        <item>Teste proximidade</item>
+        <item>Teste Vibração</item>
+        <item>Estatísticas da bateria</item>
+        <item>Menu de teste de aúdio</item>
+        <item>Monitor de serviço do Gtalk</item>
+        <item>definições do botão de ligar</item>
+        <item>Sysdump</item>
+    <item>HARD RESET</item>
+        <item>Reset de fábrica</item>
+        <item>UART/USB MODE GUI</item>
+        <item>Histórico de testes</item>
+        <item>Número único da Nand flash</item>
+        <item>Informação de cifras</item>
+        <item>Leitura do sensor de luz</item>
+    <item>Habilitar/Desabilitar resposta automática</item>
+        <item>Switch 3G --- HSPA</item>
+    </string-array>
+<string name="createshortcutRoot">Executar comando(s) como su</string>
+    <string name="createshortcutCommand">O(s) comando(s) a executar. Coloque cada comando numa nova linha.</string>
+    <string name="createshortcutName">O nome do atalho.</string>
+    <string name="createshortcutNoName">Não foi definido um nome para o atalho!</string>
+    <string name="createshortcutNoCommands">Não foram especificados comandos!</string>
+
+    <string name="createshortcutNameHint">Introduza o nome.</string>
+<string name="createshortcutIcon">Escolha o ícone para o atalho. Coloque os ícones personalizados em /sdcard/sgstools.</string>
+<string name="menu">Menu</string>
+    <string name="hardresetWarning">Ao proceder o dispositivo será restaurado conforme as definições de fábrica! Isto não pode ser desfeito!</string>
+    <string name="factoryresetWarning">Ao proceder toda a informação pessoal e defenições será eliminadas!</string>
+    <string name="attention">Atençao!</string>
+    <string name="deleteSelected">Eliminar selecionados</string>
+<string name="bootsettingsWarning"> Pode restaurar os sons de origem após definir um som personalizado ou escolher sem som.\nColoque os sons personalizados para o arranque em /sdcard/sgstools</string>
+<string name="bootsoundsBootsound">Defina o seu som de arranque aqui. Estes deverão estar no formato .wav</string>
+    <string name="bootsoundsShutdown">Defina o ser som de encerramento aqui. Estes deverão estar no formato .ogg</string>
+<string name="removeWarning">Eliminar todas as aplicações de sistema?\nIsto não pode ser desfeito,mesmo um hardreset não irá ajudar. O .apk e o ficheiro .odex serão salvaguardados para /sdcard/sgstools/\n</string>
+</resources>

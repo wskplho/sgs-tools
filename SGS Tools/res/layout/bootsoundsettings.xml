@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is also for shutdown sound -->
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical">
+  <TextView
+  android:layout_marginTop="20dip"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:text="@string/bootsettingsWarning"/>
+  <TextView
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:text="@string/bootsettingsWarning2"
+  android:layout_marginBottom="20dip"/>
+  <TextView
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:text="@string/bootsoundsBootsound"/>
+  <Spinner
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:id="@+id/bootsoundsettings_s1"/>
+  <TextView
+  android:layout_marginTop="20dip"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:text="@string/bootsoundsShutdown"/>
+  <Spinner
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:id="@+id/bootsoundsettings_s2"/>
+  <Button
+  android:layout_marginTop="30dip"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:text="Apply"
+  android:id="@+id/bootsoundsettings_b1"/> 
+</LinearLayout>

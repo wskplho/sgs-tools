@@ -1,0 +1,3 @@
+echo "this will backup your efs folder in /sdcard/sgstools/efs.. old backups won't get overriden"
+echo "command: busybox cp -ir /efs /sdcard/sgstools/efs"
+busybox cp -ir /efs /sdcard/sgstools/efs

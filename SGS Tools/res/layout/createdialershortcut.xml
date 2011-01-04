@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+	<LinearLayout
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content"
+	  android:orientation="vertical">
+		<TextView
+		android:layout_marginTop="20dip"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="The dialer code, or a number if you want to call somebody\nDialer codes start with *#" />
+		<EditText
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:id="@+id/createdialershortcut_e1"
+		android:hint="Long press for secret codes list!" />
+		<TextView
+		android:layout_marginTop="20dip"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/createshortcutName" />
+		<EditText
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:id="@+id/createdialershortcut_e2"
+		android:hint="@string/createshortcutNameHint" />
+		<TextView
+		android:layout_marginTop="20dip"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/createshortcutIcon" />
+		<Spinner
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/createdialershortcut_s1" />
+		<LinearLayout
+		android:layout_marginTop="20dip"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+			<Button
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="OK"
+			android:layout_weight="0.5" 
+			android:id="@+id/createdialershortcut_b1" />
+			<Button
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="Cancel"
+			android:layout_weight="0.5"
+			android:id="@+id/createdialershortcut_b2" />
+		</LinearLayout>
+	</LinearLayout>
+</ScrollView>

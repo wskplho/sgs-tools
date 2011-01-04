@@ -1,0 +1,2 @@
+echo "this will reverse the gallery hack"
+busybox cp -f /sdcard/sgstools/Gallery* /system/app/

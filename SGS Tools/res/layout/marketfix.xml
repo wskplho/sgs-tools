@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+<TextView 
+android:text="MarketFix" 
+android:textSize="20dip"
+android:layout_marginTop="15dip"
+android:layout_centerHorizontal="true"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"/>
+<TextView 
+android:text="You can change your fingerprint of your device here. The market uses this to determine whether it should show you copy protected apps." 
+android:textSize="20dip"
+android:layout_marginTop="50dip"
+android:layout_width="fill_parent" 
+android:layout_height="wrap_content"/>
+<CheckBox
+android:id="@+id/marketfix_c1"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="190dip"
+android:text="Clear market cache (recommended)"
+android:checked="true" />
+<CheckBox
+android:id="@+id/marketfix_c2"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="230dip"
+android:text="Reboot (recommended)"
+android:checked="true" />
+<Button
+android:id="@+id/marketfix_b1"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:layout_marginTop="340dip"
+android:layout_marginLeft="60dip"
+android:layout_marginRight="60dip"
+android:text="Apply" />
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:orientation="vertical">
+  <TextView
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:id="@+id/text_listview"
+  android:text="Choose which script to run\nScripts must be located at /sdcard/sgstools\nupdate.zip's written for the recovery won't run!">
+  </TextView>
+  <ListView
+  android:layout_marginTop="25dip"
+  android:id="@android:id/list"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  </ListView>
+</LinearLayout>

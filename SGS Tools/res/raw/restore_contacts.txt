@@ -1,0 +1,2 @@
+echo "this will reverse the contacts.apk hack"
+busybox cp -f /sdcard/sgstools/Contacts* /system/app/

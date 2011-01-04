@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical">
+  <ImageView
+  android:layout_marginTop="10dip"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:layout_gravity="center_horizontal"
+  android:src="@drawable/emo_im_cool" />
+  <TextView
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:textSize="16dip"
+  android:text="You can make a backup of you homesreen (widgets, icons, shortcuts etc.) and restore it here :)\nOnly for the default TouchWiz Launcher.\nIt seems as if widgets do not get restored.. :(" />  
+  <TextView
+  android:layout_marginTop="20dip"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:textSize="16dip"
+  android:gravity="center_horizontal"
+  android:text="Make sure you have all your apps installed again before restoring!!\nDevice will reboot after restoring the homescreen."
+  android:textColor="#FF8C00" />  
+  android
+  <Button
+  android:layout_marginTop="30dip"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:layout_marginRight="80dip"
+  android:layout_marginLeft="80dip"
+  android:layout_gravity="center_horizontal" 
+  android:text="backup homescreen"
+  android:id="@+id/backup_b1"/>
+  <Button
+  android:layout_marginTop="30dip"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:layout_marginRight="80dip"
+  android:layout_marginLeft="80dip"
+  android:layout_gravity="center_horizontal" 
+  android:text="manage backups"
+  android:id="@+id/backup_b2"/>
+  <Button
+  android:layout_marginTop="30dip"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:layout_marginRight="80dip"
+  android:layout_marginLeft="80dip"
+  android:layout_gravity="center_horizontal" 
+  android:text="restore homescreen"
+  android:id="@+id/backup_b3"/>
+</LinearLayout>

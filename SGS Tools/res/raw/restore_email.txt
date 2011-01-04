@@ -1,0 +1,2 @@
+echo "this will reverse the email.apk hack"
+busybox cp -f /sdcard/sgstools/Email* /system/app/

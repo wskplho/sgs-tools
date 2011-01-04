@@ -1,0 +1,15 @@
+echo "clearing thumb db, thanks to Quacktop for this script"
+
+busybox rm -rf /dbdata/databases/com.android.providers.media
+busybox rm -rf /dbdata/databases/com.cooliris.media
+
+
+
+busybox find /sdcard/ -type d -name ".thumbnails" -exec busybox rm -rf {} \; 
+
+#Reboot with Quickboot
+/data/data/com.siriusapplications.quickboot/files/reboot
+
+#Reboot with RomManager
+/data/data/com.koushikdutta.rommanager/files/reboot
+

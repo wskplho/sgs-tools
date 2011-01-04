@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical">
+  <TextView
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:text="You can set the default screen for the TouchWiz Launcher here\nSupported firmwares:\nJM7,8,9 (2.1)\nJPM, JP6 (2.2)\n\nFirst screen is 1"
+  android:gravity="center_horizontal" />
+  <EditText
+  android:layout_marginTop="40dip"
+  android:layout_width="40dip"
+  android:layout_height="wrap_content"
+  android:id="@+id/screenchanger_e1"
+  android:layout_gravity="center_horizontal" 
+  android:numeric="integer"/>
+  <Button
+  android:layout_marginTop="70dip"
+  android:layout_width="220dip"
+  android:layout_height="wrap_content"
+  android:id="@+id/screenchanger_b1"
+  android:text="Apply"
+  android:layout_gravity="center_horizontal" />
+  <Button
+  android:layout_marginTop="30dip"
+  android:layout_width="220dip"
+  android:layout_height="wrap_content"
+  android:id="@+id/screenchanger_b2"
+  android:text="reboot me"
+  android:enabled="false"
+  android:layout_gravity="center_horizontal" 
+  android:onClick="reboot"/>
+</LinearLayout>

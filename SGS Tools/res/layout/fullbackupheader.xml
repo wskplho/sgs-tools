@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:background="#2B2B2B">
+<LinearLayout
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:orientation="vertical">
+<TextView
+android:text="Red = System App"
+android:textColor="#FF0000"
+android:layout_height="wrap_content"
+android:layout_width="wrap_content" />
+<TextView
+android:text="Green = Normal App"
+android:textColor="#32CD32"
+android:layout_height="wrap_content"
+android:layout_width="wrap_content" />
+</LinearLayout>
+<TextView
+android:text="override\nApk"
+android:layout_alignParentRight="true"
+android:layout_height="wrap_content"
+android:layout_width="wrap_content"
+android:id="@+id/fullbackupheader_t1" />
+<TextView
+android:text="backup\nData"
+android:layout_height="wrap_content"
+android:layout_width="wrap_content"
+android:layout_toLeftOf="@id/fullbackupheader_t1"
+android:layout_marginRight="10dip" />
+</RelativeLayout>

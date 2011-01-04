@@ -1,0 +1,3 @@
+echo "this will delete your batterystats"
+echo "command: busybox rm -f /data/system/batterystats.bin"
+busybox rm -f /data/system/batterystats.bin

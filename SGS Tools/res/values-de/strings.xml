@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="homscreennumber">Wähle Homescreen</string>
+    <string name="screencount">Wähle die Anzahl der Screens</string>
+<string name="hello">hello</string>
+    <string-array name="descriptions">
+        <item>IMEI-Nummer anzeigen</item>
+        <item>Produkt Code</item>
+        <item>LCD TEST Menü</item>
+        <item>Nutzungsstatistik und Telefoninfo</item>
+        <item>RealTimeClock(RTC) anzeigen</item>
+        <item>GSM Status</item>
+        <item>PDA/PHONE/CSC-Version</item>
+        <item>Service-Mode UART/USB</item>
+        <item>Servicemode, Debug ,Netz, Audio, Common</item>
+        
+        <item>Netzsperre/Sp-Sperre/Cp-Sperre</item>
+        <item>Netzband auswählen</item>
+        
+        
+        <item>Bluetooth-Adresse</item>
+        <item>Bluetooth-Test</item>
+        <item>WLAN-MAC-Adresse</item>
+        <item>GPS-Test und Einstellungen (LBSTestMode)</item>
+        <item>Touchscreen Firmewareversion</item>
+        <item>Touchscreen Test</item>
+        <item>Annäherungssensor Test</item>
+        <item>Vibrations Test</item>
+        <item>Batteriestatus (ausführlich)</item>
+        <item>Audiotestmenü</item>
+        <item>GTALK Service Monitor</item>
+    <item>Powerbutton  Einstellungen</item>
+        <item>Sysdump</item>
+        <item>HARD RESET - Auf Werkseinstellungen zurücksetzen</item>
+        <item>Factory data reset - Löschung aller privaten Daten und Apps</item>
+        <item>UART/USB MODE GUI</item>
+        <item>Testverlauf</item>
+        <item>Nand flash id</item>
+        <item>Empfangs info</item>
+        <item>Lichtsensordaten anzeigen</item>
+    <item>Auto Rufannahme de-/aktivieren</item>
+        <item>Switch 3G --- HSPA</item>
+    </string-array>
+    <string name="createshortcutRoot">Die Befehle als su ausführen</string>
+    <string name="createshortcutCommand">Die auszuführenden Befehle. Jeder Befehl kommt in eine neue Zeile.</string>
+    <string name="createshortcutName">Der Name des Shortcuts.</string>
+    <string name="createshortcutNoName">Kein Name für den Shortcut angegeben!</string>
+    <string name="createshortcutNoCommands">Keine Befehle angegeben!</string>
+    
+    <string name="createshortcutNameHint">Namen eingeben.</string>
+<string name="createshortcutIcon">Legen sie das Icon für den Shortcut fest. Eigene Icons müssen sich in /sdcard/sgstools befinden.</string>
+<string name="app_name">SGS Tools</string>
+<string name="menu">Menü</string>
+    <string name="factoryresetWarning">Beim Fortfahren werden alle Daten, Einstellungen gelöscht!</string>
+    <string name="hardresetWarning">Beim Fortfahren wird das Gerät UNWIDERRUFLICH auf Werkseinstellungen zurückgesetzt!</string>
+    <string name="attention">Achtung!</string>
+    <string name="deleteSelected">Ausgewählte löschen</string>
+<string name="bootsettingsWarning">Die stock Sounds  können wiederhergestellt werden. Platziere eigene boot sounds nach /sdcard/sgstools</string>
+<string name="bootsoundsBootsound">Wähle hier deinen boot sound aus. Boot sounds müssen im .wav Format vorliegen.</string>
+    <string name="bootsoundsShutdown">Wähle hier deinen shutdown sound aus. Shutdown sounds müssen im .ogg Fomat vorliegen.</string>
+<string name="removeWarning">Alle ausgewählten System Apps wirklich löschen?\nDies kann rückgängig gemacht werden (wenn man weiß wie), ein factory-/hardreset jedoch kann nichts ändern.\n Die .apk sowie die .odex können in /sdcard/sgstools/ gesichert werden. Trotzdem Fortfahren (Hierfür wird root benötigt)?</string>
+<string name="maxframesexplanation">Hiermit kann die maximale Anzahl an Frames pro Sekunde (fps) systemweit eingestellt werden.\nDies ist in der /system/build.prop definiert.\nStandardwerte liegen um die 60 herum.</string>
+<string name="bootsettingsWarning2">Die App prüft den aktuellen bootsound nicht, von daher ist am Anfang immer standard ausgewählt!</string>
+</resources>

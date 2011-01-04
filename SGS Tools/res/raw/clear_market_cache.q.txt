@@ -1,0 +1,5 @@
+echo "clearing market cache"
+busybox rm -f /data/data/com.android.vending/cache/*
+busybox rm -f /data/data/com.android.vending/app_sslcache/*
+
+

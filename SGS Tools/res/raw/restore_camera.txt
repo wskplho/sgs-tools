@@ -1,0 +1,2 @@
+echo "this will reverse the camera hack"
+busybox cp -f /sdcard/sgstools/Camera* /system/app/

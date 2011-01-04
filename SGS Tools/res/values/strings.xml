@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="hello">Hello World, info!</string>
+    <string name="app_name">SGS Tools</string>
+<string name="homscreennumber">Choose default homescreen</string>
+    <string name="screencount">Choose the amount of screens</string>
+<string-array name="descriptions">
+        <item>View IMEI number</item>
+        <item>Product code</item>
+        <item>Testing mode</item>
+        <item>Usage stats and device info</item>
+        <item>Show RealTimeClock (RTC)</item>
+        <item>GSM Status</item>
+        <item>PDA/PHONE/CSC-Version</item>
+        <item>Service-Mode UART/USB</item>
+        <item>Servicemode, Debug, Netz, Audio, Common</item>
+        <item>Engineering mode</item>
+        <item>Band Selection</item>
+        <item>Bluetooth adress</item>
+        <item>Bluetooth test</item>
+        <item>WLAN-MAC adress</item>
+        <item>GPS-Test and settings (LBSTestMode)</item>
+        <item>Touchscreen Firmwareversion</item>
+        <item>Touchscreen test</item>
+        <item>Proximity test</item>
+        <item>Vibrator test</item>
+        <item>Battery stats</item>
+        <item>Audiotestmenu</item>
+        <item>Gtalk service monitor</item>
+        <item>Powerbutton settings</item>
+   		 <item>Sysdump</item>
+        <item>HARD RESET</item>
+        <item>Factory data reset</item>
+        <item>UART/USB MODE GUI</item>
+        <item>Test History</item>
+        <item>Nand flash unique number</item>
+        <item>Ciphering info</item>
+    <item>Light sensor read</item>
+    <item>Enable/Disable auto answer</item>
+    <item>Switch 3G --- HSPA</item>
+    </string-array>
+<string name="createshortcutRoot">Execute the command(s) as su</string>
+    <string name="createshortcutCommand">The command(s) to execute. Put each command in a new line.</string>
+    <string name="createshortcutName">The name of the shortcut.</string>
+    <string name="createshortcutNoName">No name specified for the shortcut!</string>
+    <string name="createshortcutNoCommands">No commands specified!</string>
+<string name="createshortcutCommandHint">Long press for basic commands (shutdown, mount, etc)!</string>
+    <string name="createshortcutNameHint">Enter the name.</string>
+<string name="createshortcutIcon">Choose the icon for the shortcut. Place custom Icons to /sdcard/sgstools.</string>
+<string name="menu">Menu</string>
+    <string name="hardresetWarning">With proceeding the device will be reset to factory settings! This cannot be undone!</string>
+    <string name="factoryresetWarning">With proceeding all personal Data and Settings will be deleted!</string>
+    <string name="attention">Attention!</string>
+    <string name="deleteSelected">Delete selected</string>
+<string name="bootsettingsWarning"> You can restore the stock sounds after setting a custom or no bootsound.\nPut custom boot sounds to /sdcard/sgstools</string>
+<string name="bootsoundsBootsound">Set your preferred boot sound here. Boot sounds must be in the .wav format.</string>
+    <string name="bootsoundsShutdown">Set your preferred shutdown sound here. Shutdown sounds must exists as .ogg</string>
+<string name="removeWarning">Delete all selected system apps?\nThis can be undone (if you are experienced), but for example a hardreset won\'t help. The .apk and the .odex can be backuped in /sdcard/sgstools/\n</string>
+<string name="maxframesexplanation"/>
+<string name="bootsettingsWarning2">The app does not check the current boot sound, so on every start it first says standard!</string>
+</resources>

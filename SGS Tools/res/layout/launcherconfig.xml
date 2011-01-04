@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+    <ListView
+  android:id="@android:id/list"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:layout_marginBottom="50dip">
+  </ListView>
+  <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+      android:background="#CDC9C9">
+  <Button
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="6dip"
+    android:layout_marginLeft="50dip"
+    android:layout_marginRight="50dip"
+    android:id="@+id/launcherconfig_b1"
+    android:text="Save"
+    />
+    </LinearLayout>
+</RelativeLayout>

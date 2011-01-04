@@ -1,0 +1,2 @@
+echo "this will reverse the touchwiz launcher hack"
+busybox cp -f /sdcard/sgstools/TouchWiz30Launcher* /system/app/
